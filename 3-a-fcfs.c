@@ -45,3 +45,13 @@ int main() {
 // P3: 12
 // P4: 6
 
+// Process  Burst Time  Waiting Time  Turnaround Time
+// P1       5           0             5
+// P2       8           5             13
+// P3       12          13            25
+// P4       6           25            31
+
+// Average Waiting Time = 10.75
+// Average Turnaround Time = 18.50
+
+
