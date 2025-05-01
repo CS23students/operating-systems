@@ -70,6 +70,7 @@ int main() {
 }
 
 
+// Enter no. of pages: 8
 // Reference String: 7 0 1 2 0 3 0 4
 // Frames: 3
 // Page    Frames
