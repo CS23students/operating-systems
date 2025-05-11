@@ -1,0 +1,193 @@
+1. ls (List Files and Directories)
+Syntax: ls [options] [directory]
+
+Purpose: Lists files and directories.
+
+Options:
+
+-l → Long format with details
+
+-a → Show hidden files
+
+-h → Human-readable file sizes
+
+2. pwd (Print Working Directory)
+Syntax: pwd
+
+Purpose: Displays the absolute path of the current directory.
+
+3. cd (Change Directory)
+Syntax: cd [directory]
+
+Purpose: Moves to a different directory.
+
+Options:
+
+cd .. → Moves one directory up
+
+cd / → Moves to the root directory
+
+cd ~ → Moves to the home directory
+
+4. mkdir (Make Directory)
+Syntax: mkdir [directory_name]
+
+Purpose: Creates a new directory.
+
+Options:
+
+-p → Creates parent directories if they don’t exist
+
+5. rmdir (Remove Empty Directory)
+Syntax: rmdir [directory_name]
+
+Purpose: Deletes an empty directory.
+
+6. rm (Remove Files or Directories)
+Syntax: rm [options] [file/directory]
+
+Purpose: Deletes files or directories.
+
+Options:
+
+-r → Deletes directories and their contents recursively
+
+-f → Forces deletion without confirmation
+
+7. cp (Copy Files or Directories)
+Syntax: cp [options] source destination
+
+Purpose: Copies files or directories.
+
+Options:
+
+-r → Copies directories recursively
+
+-i → Prompts before overwriting
+
+8. mv (Move or Rename Files)
+Syntax: mv [options] source destination
+
+Purpose: Moves or renames files or directories.
+
+Options:
+
+-i → Prompts before overwriting
+
+9. chmod (Change File Permissions)
+Syntax: chmod [permissions] file
+
+Purpose: Modifies file permissions.
+
+Example: chmod 755 myfile (Owner: read, write, execute | Others: read, execute)
+
+10. chown (Change File Ownership)
+Syntax: chown [user]:[group] file
+
+Purpose: Changes the owner of a file.
+
+Example: chown user1:group1 myfile
+
+11. cat (Concatenate & Display File Contents)
+Syntax: cat [file]
+
+Purpose: Displays file contents.
+
+Options:
+
+> newfile → Redirects output to a new file
+
+>> newfile → Appends output to a file
+
+12. tac (Display File in Reverse Order)
+Syntax: tac [file]
+
+Purpose: Displays file contents in reverse order.
+
+13. head (Display First Few Lines of a File)
+Syntax: head [options] [file]
+
+Purpose: Shows the first 10 lines of a file.
+
+Options:
+
+-n [number] → Specify number of lines
+
+14. tail (Display Last Few Lines of a File)
+Syntax: tail [options] [file]
+
+Purpose: Shows the last 10 lines of a file.
+
+Options:
+
+-n [number] → Specify number of lines
+
+15. grep (Search for Patterns in Files)
+Syntax: grep [options] "pattern" file
+
+Purpose: Searches for a specific pattern in a file.
+
+Options:
+
+-i → Case insensitive search
+
+-v → Invert match
+
+16. awk (Pattern Scanning & Processing)
+Syntax: awk '/pattern/ { action }' file
+
+Purpose: Extracts and processes text from files.
+
+Example: awk '{print $1}' file.txt (Prints first column)
+
+17. sed (Stream Editor)
+Syntax: sed 's/old/new/g' file
+
+Purpose: Replaces text in a file.
+
+18. ps (Display Running Processes)
+Syntax: ps [options]
+
+Purpose: Shows currently running processes.
+
+Options:
+
+-aux → Shows all processes
+
+19. top (Real-Time Process Monitoring)
+Syntax: top
+
+Purpose: Displays active processes and system performance.
+
+20. kill (Terminate a Process)
+Syntax: kill [PID]
+
+Purpose: Stops a running process.
+
+21. bg (Resume a Background Job)
+Syntax: bg [job_id]
+
+Purpose: Resumes a suspended job in the background.
+
+22. fg (Bring Background Job to Foreground)
+Syntax: fg [job_id]
+
+Purpose: Brings a background job to the foreground.
+
+23. jobs (List Background Jobs)
+Syntax: jobs
+
+Purpose: Displays background processes.
+
+24. ping (Test Network Connectivity)
+Syntax: ping [hostname/IP]
+
+Purpose: Checks if a host is reachable.
+
+25. whoami (Display Current User)
+Syntax: whoami
+
+Purpose: Shows the currently logged-in user.
+
+
+
